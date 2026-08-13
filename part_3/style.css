@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Archivo", sans-serif;
+    background-color: #1a1f22;
+}
+@font-face {
+  font-family: 'Malkana';
+  src: url('resources/Malkana\ Regular\ Demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.body{
+    
+}
+.divider img{
+    width: 200px;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logosmal img{
+    height: 40px;
+    object-fit: contain;
+}
+
+.main-card{
+    padding:40px 280px 0px;
+    height: 75%;
+    background-image: url(resources/manuel-cosentino-n--CMLApjfI-unsplash.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    clip-path: ellipse(90% 100% at top);
+    
+}
+
+.pages{
+    display: flex;
+    gap:20px;
+}
+
+.page-link{
+    display: flex;
+}
+
+.socials{
+    display: flex;
+    font-size: 40px;
+    gap:15px;
+}
+
+main{
+    margin-top:120px;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.hero-image{
+    position: absolute;
+    left:28%;
+    top:-20%;
+}
+.hero-image img{
+    height: 700px;
+    width: auto;
+    object-fit: contain;
+    
+}
+
+.title{
+    
+    width: 100%;
+    display: flex;
+    font-family:"Malkana","Archivo", sans-serif;
+    font-size: 150px;
+    font-weight: 900;
+    /* margin: 10px; */
+    transform: scaleY(0.6);
+    transform-origin: bottom;
+    justify-content: space-between
+}
+.box1{
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    transform: translateY(60px);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box4{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 600;
+    transform: translateY(-5px);
+}
+.box5{
+    background-image: url(resources/vecteezy_decorative-watercolor-wooden-board-oblique-edge_11097944.png);
+    height:68px;
+    width: 280px;
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-position:50% 31% ;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    z-index: 6;
+    position: absolute;
+    top:300px;
+}
+
+.bottom-section{
+    color: rgba(255, 255, 255, 0.409);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 280px 0px;
+}
+.para{
+    display: flex;
+    gap:100px;
+    font-size: 20px;
+    transform: translateY(-60px);
+}
+.vision{
+    font-size: 60px;
+    font-family:"Malkana","Archivo", sans-serif;
+    transform: scaleY(0.5);
+    font-weight: 50px;
+}
+.divider{
+    transform: translateY(-35px);
+}
+.divider > img{
+    width: 1450px;
+    height: 100px;
+}
